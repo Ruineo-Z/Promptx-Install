@@ -1,4 +1,4 @@
-# Promptx MCP Install
+# Promptx Install
 
 本文档用于介绍Promptx MCP的安装方法
 
@@ -73,21 +73,21 @@ curl http://localhost:3000/health
 
 ## 📦 版本说明
 
-| 🏷️ **渠道** | 📊 **稳定性** | 🎯 **适用场景** | 📦 **配置** |
-|---------|---------|------------|---------|
-| **alpha** | 内测版 ⚡ | 尝鲜最新功能，参与测试反馈 | `dpml-prompt@alpha` |
-| **beta** | 公测版 🧪 | 功能相对稳定，适合日常使用 | `dpml-prompt@beta` |
-| **latest** | 正式版 ✅ | 生产环境，追求最高稳定性 | `dpml-prompt@latest` |
-
-
 ## 各平台详细教程
 
 下方各文档为当前主流AI Coding工具安装的详细教程
 ❗默认都是用 beta 如果有特殊需要，只需更换版本即可
 
-- [Augment](./Augment/promptx-augment.md)
-- [Cursor](./Cursor/promptx-cursor.md)
-- [Claude Code](./Claude%20Code/promptx-claude-code.md)
-- [Trae](./Trae/promptx-trae.md)
-- [Cline](./Cline/promptx-cline.md)
-- [Roo Code](./Roo%20Code/promptx-roo-code.md)
+支持的平台：
+- [Augment](./promptx-augment.md) - VSCode插件模式
+- [Cursor](./promptx-cursor.md) - 支持Windows和Mac系统
+- [Claude Code](./promptx-claude-code.md) - 终端命令行模式
+- [Trae](./promptx-trae.md) - MCP服务器配置
+- [Cline](./promptx-cline.md) - VSCode插件模式
+- Roo Code - (链接与Trae相同，可能是重复项)
+
+---
+
+> 原始链接: https://kqntszks7k4.feishu.cn/wiki/QoJDwGSiSiMXzskwaArcax0JnMd
+> 
+> 获取时间: 2025-01-13
