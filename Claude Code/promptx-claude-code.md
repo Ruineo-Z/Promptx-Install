@@ -6,12 +6,12 @@
 
 ### 本地模式(推荐)
 
-```json
+```shell
 # 全局安装promptx
 npm install -g dpml-prompt@beta
 
 # 添加promptx mcp服务
-
+claude mcp add promptx cmd /c dpml-prompt mcp-server
 ```
 
 ### Http模式

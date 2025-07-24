@@ -2,6 +2,22 @@
 
 本文档用于介绍Promptx MCP的安装方法
 
+
+
+## 各平台详细教程
+
+下方各文档为当前主流AI Coding工具安装的详细教程
+❗默认都是用 beta 如果有特殊需要，只需更换版本即可
+
+- [Augment](./Augment/promptx-augment.md)
+- [Cursor](./Cursor/promptx-cursor.md)
+- [Claude Code](./Claude%20Code/promptx-claude-code.md)
+- [Trae](./Trae/promptx-trae.md)
+- [Cline](./Cline/promptx-cline.md)
+- [Roo Code](./Roo%20Code/promptx-roo-code.md)
+
+
+
 ## 🚀 一键启动 快速使用
 
 ### ⚙️ 快速配置
@@ -78,16 +94,3 @@ curl http://localhost:3000/health
 | **alpha** | 内测版 ⚡ | 尝鲜最新功能，参与测试反馈 | `dpml-prompt@alpha` |
 | **beta** | 公测版 🧪 | 功能相对稳定，适合日常使用 | `dpml-prompt@beta` |
 | **latest** | 正式版 ✅ | 生产环境，追求最高稳定性 | `dpml-prompt@latest` |
-
-
-## 各平台详细教程
-
-下方各文档为当前主流AI Coding工具安装的详细教程
-❗默认都是用 beta 如果有特殊需要，只需更换版本即可
-
-- [Augment](./Augment/promptx-augment.md)
-- [Cursor](./Cursor/promptx-cursor.md)
-- [Claude Code](./Claude%20Code/promptx-claude-code.md)
-- [Trae](./Trae/promptx-trae.md)
-- [Cline](./Cline/promptx-cline.md)
-- [Roo Code](./Roo%20Code/promptx-roo-code.md)
