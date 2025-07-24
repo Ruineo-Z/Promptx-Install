@@ -22,23 +22,36 @@ claude mcp add --transport http promptx http://localhost:3000/mcp
 
 ## 流程图
 
-### 1. Windows
+### 1. 安装MCP
 
-#### 1.1 开启终端，输入安装命令
+#### 1.1 Windows
 
 ##### 1.1 本地模式(推荐)
 ![本地模式安装](./Imgs/img-6.png)
 
-##### 1.2 Http模式
+##### 1.1.2 Http模式
+
 ![Http模式安装](./Imgs/img-1.png)
 
-#### 2. 检查MCP是否可用
+#### 1.2. Mac
 
 ![本地模式检查1](./Imgs/img-2.png)
 
-![本地模式检查2](./Imgs/img-3.png)
+![本地模式检查2](./Imgs/img-9.png)
 
-![Http模式检查1](./Imgs/img-4.png)
+![本地模式检查3](./Imgs/img-10.png)
 
-![Http模式检查2](./Imgs/img-5.png)
+![本地模式检查4](./Imgs/img-11.png)
+
+#### 2.2.2 Http模式
+
+![Http模式检查1](./Imgs/img-2.png)
+
+![Http模式检查2](./Imgs/img-3.png)
+
+![Http模式检查3](./Imgs/img-4.png)
+
+![Http模式检查4](./Imgs/img-5.png)
+
+
 
