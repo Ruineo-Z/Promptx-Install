@@ -1,6 +1,6 @@
-# Trae
+# Trae国际版
 
-本文档用于介绍如何在Trae中安装Promptx MCP
+本文档用于介绍如何在Trae 国际版中安装Promptx MCP
 
 ## 安装命令
 
@@ -57,3 +57,6 @@
 
 ![安装完成](./Imgs/img-5.png)
 
+## 使用
+![使用指南1](./Imgs/img-6.png)
+![使用指南2](./Imgs/img-7.png)

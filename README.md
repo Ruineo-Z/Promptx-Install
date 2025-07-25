@@ -10,9 +10,11 @@
 ❗默认都是用 beta 如果有特殊需要，只需更换版本即可
 
 - [Augment](./Augment/promptx-augment.md)
-- [Cursor](./Cursor/promptx-cursor.md)
 - [Claude Code](./Claude%20Code/promptx-claude-code.md)
-- [Trae](./Trae/promptx-trae.md)
+- [Trae 国际版](./Trae国际版/promptx-trae.md)
+- [Trae 国内版](./Trae国内版/promptx-trae-cn.md)
+- [ChatBox](./ChatBox/prompt-chatbox.md)
+- [Cursor](./Cursor/promptx-cursor.md)
 - [Cline](./Cline/promptx-cline.md)
 - [Roo Code](./Roo%20Code/promptx-roo-code.md)
 
