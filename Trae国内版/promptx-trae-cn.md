@@ -4,9 +4,8 @@
 国内版已上架MCP市场，可以通过MCP市场一键安装
 
 ## 视频教程
-<video width="640" height="360" controls>
-  <source src="./Videos/trae-国内版.mov" type="video/quicktime">
-  您的浏览器不支持 video 标签。
+<video src="https://github.com/user-attachments/assets/a08b1674-068b-42db-b6cc-19d0f85b780b"
+       width="640" height="360" controls>
 </video>
 
 ## 流程如下
