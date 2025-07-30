@@ -2,6 +2,13 @@
 
 本文档用于介绍如何在Trae 国内版中安装Promptx MCP
 国内版已上架MCP市场，可以通过MCP市场一键安装
+
+## 视频教程
+<video width="640" height="360" controls>
+  <source src="./Videos/trae-国内版.mov" type="video/quicktime">
+  您的浏览器不支持 video 标签。
+</video>
+
 ## 流程如下
 1. 打开MCP市场
 ![MCP页面1](./Imgs/img-1.png)
