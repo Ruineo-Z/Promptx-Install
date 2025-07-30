@@ -37,7 +37,18 @@
 }
 ```
 
-## 流程图
+## 视频教程
+### 本地模式
+<video src="https://github.com/user-attachments/assets/b6cd9dc3-ca82-4e72-bd07-e645db9ec629"
+       width="640" height="360" controls>
+</video>
+
+### Http模式
+<video src="https://github.com/user-attachments/assets/479bb843-059e-4cc6-9cea-cc080dd2837b"
+       width="640" height="360" controls>
+</video>
+
+## 图文教程
 
 ### 1. 打开MCP页面
 
