@@ -66,6 +66,8 @@
 
 **启动服务命令**
 
+[视频教程](https://github.com/user-attachments/assets/24b0e288-bb44-4c41-9ade-a55f21aa140c)
+
 ```bash
 # 启动服务
 npx -f -y dpml-prompt@beta mcp-server --transport http --port 3000
