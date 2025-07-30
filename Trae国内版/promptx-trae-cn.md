@@ -8,7 +8,7 @@
        width="640" height="360" controls>
 </video>
 
-## 流程如下
+## 图文教程
 1. 打开MCP市场
 ![MCP页面1](./Imgs/img-1.png)
 2. 搜索`promptx`
