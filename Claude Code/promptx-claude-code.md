@@ -7,6 +7,12 @@
 ### 本地模式(推荐)
 
 ```shell
+# 设置镜像源
+npm config set registry https://registry.npmjs.org
+
+# 查看镜像源是否设置成功
+npm config get registry
+
 # 全局安装promptx
 npm install -g dpml-prompt@beta
 
