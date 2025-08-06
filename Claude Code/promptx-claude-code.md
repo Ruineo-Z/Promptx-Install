@@ -2,9 +2,11 @@
 
 本文档用于介绍如何在Claude Code中安装Promptx MCP
 
-## 安装命令
+## Windows
 
 ### 本地模式(推荐)
+
+#### 安装命令
 
 ```shell
 # 设置镜像源
@@ -20,44 +22,66 @@ npm install -g dpml-prompt@beta
 claude mcp add promptx cmd /c dpml-prompt mcp-server
 ```
 
+#### 图文流程
+![本地模式安装](./Imgs/img-6.png)
 ### Http模式
 
+#### 安装命令
 ```bash
 claude mcp add --transport http promptx http://localhost:3000/mcp
 ```
 
-## 流程图
-
-### 1. 安装MCP
-
-#### 1.1 Windows
-
-##### 1.1 本地模式(推荐)
-![本地模式安装](./Imgs/img-6.png)
-
-##### 1.1.2 Http模式
-
+#### 图文流程
 ![Http模式安装](./Imgs/img-1.png)
 
-#### 1.2. Mac
+## Mac
 
-![本地模式检查1](./Imgs/img-2.png)
+### 本地模式(推荐)
+#### 安装命令
+```shell
+claude mcp add-json promptx '{
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+        "-f",
+        "-y",
+        "--registry",
+        "https://registry.npmjs.org",
+        "dpml-prompt@beta",
+        "mcp-server"
+    ]
+}'
+```
+#### 图文流程
+![Mac本地模式安装](./Imgs/img-16.png)
 
-![本地模式检查2](./Imgs/img-9.png)
+### Http模式
+#### 安装命令
+```shell
+claude mcp add-json promptx '{
+    "type": "http",
+    "url": "http://localhost:3000/mcp"
+}'
+```
+#### 图文流程
+![Mac Http模式安装](./Imgs/img-17.png)
 
-![本地模式检查3](./Imgs/img-10.png)
+## 查看安装结果
+查看mcp命令
+```shell
+claude mcp list
+```
+![查看安装结果本地模式](./Imgs/img-18.png)
+![查看安装结果http模式](./Imgs/img-19.png)
 
-![本地模式检查4](./Imgs/img-11.png)
-
-#### 2.2.2 Http模式
-
-![Http模式检查1](./Imgs/img-2.png)
-
-![Http模式检查2](./Imgs/img-3.png)
-
-![Http模式检查3](./Imgs/img-4.png)
-
-![Http模式检查4](./Imgs/img-5.png)
-
-
-
+查看mcp是否可用，命令
+```shell
+claude
+```
+![查看安装结果http模式](./Imgs/img-2.png)
+![查看安装结果http模式](./Imgs/img-3.png)
+![查看安装结果http模式](./Imgs/img-4.png)
+# 本地模式
+![查看安装结果本地模式](./Imgs/img-11.png)
+# Http模式
+![查看安装结果http模式](./Imgs/img-5.png)
