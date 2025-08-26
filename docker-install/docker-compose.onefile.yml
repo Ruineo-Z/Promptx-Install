@@ -1,0 +1,14 @@
+services:
+
+  promptx:
+    container_name: promptx
+    image: node:20-alpine
+    ports:
+      - "0.0.0.0:3000:3000"
+    volumes:
+      - ~/.promptx:/root/.promptx
+    environment:
+      - PROMPTX_DIR=/root/.promptx
+    command: >
+      sh -c "npm install -g @promptx/cli@dev && promptx mcp-server --transport http --host 0.0.0.0 --port 3000"
+    restart: unless-stopped
