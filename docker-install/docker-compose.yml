@@ -13,17 +13,20 @@ services:
       - promptx-network
 
   promptx:
+    build: .
     container_name: promptx
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ~/.promptx:/root/.promptx
-    environment:
-      - PROMPTX_DIR=/root/.promptx
-    restart: unless-stopped
+    ports:
+      - "3000:3000"
     networks:
       - promptx-network
+    volumes:
+      - ~/.promptx:/root/.promptx
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
 
 networks:
   promptx-network:
